@@ -1,0 +1,1963 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Quiz Especial de Natal | Atacadão Farma Centro
+  </title>
+
+  <meta
+    name="description"
+    content="Quiz de Natal do Atacadão Farma Centro. Participe, ganhe seu brinde e seu desconto misterioso."
+  >
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    /* =====================================
+        HEADER
+    ===================================== */
+
+    header {
+      background: linear-gradient(
+        135deg,
+        #b40000,
+        #e00000
+      );
+
+      color: white;
+
+      padding: 18px 20px;
+
+      box-shadow:
+        0 3px 12px rgba(0,0,0,.18);
+
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-container {
+      max-width: 1100px;
+      margin: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+
+      background: white;
+      color: #c00000;
+
+      border-radius: 50%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .logo-text h1 {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: .5px;
+    }
+
+    .logo-text p {
+      font-size: 13px;
+      opacity: .95;
+    }
+
+    .header-button {
+      background: white;
+      color: #c00000;
+
+      text-decoration: none;
+
+      padding: 10px 16px;
+
+      border-radius: 25px;
+
+      font-weight: bold;
+      font-size: 14px;
+
+      transition: .2s;
+    }
+
+    .header-button:hover {
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 5px 12px rgba(0,0,0,.2);
+    }
+
+
+    /* =====================================
+        BANNER
+    ===================================== */
+
+    .hero {
+      max-width: 1100px;
+
+      margin: 25px auto 15px;
+
+      padding: 0 15px;
+    }
+
+    .christmas-banner {
+
+      position: relative;
+
+      overflow: hidden;
+
+      border-radius: 20px;
+
+      padding: 38px 25px;
+
+      color: white;
+
+      text-align: center;
+
+      background:
+
+        radial-gradient(
+          circle at 10% 20%,
+          rgba(255,255,255,.2) 0 3px,
+          transparent 4px
+        ),
+
+        radial-gradient(
+          circle at 80% 30%,
+          rgba(255,255,255,.2) 0 3px,
+          transparent 4px
+        ),
+
+        radial-gradient(
+          circle at 30% 80%,
+          rgba(255,255,255,.18) 0 3px,
+          transparent 4px
+        ),
+
+        linear-gradient(
+          135deg,
+          #b40000,
+          #e50000 55%,
+          #9d0000
+        );
+
+      box-shadow:
+        0 8px 25px rgba(0,0,0,.15);
+    }
+
+    .christmas-banner::before {
+
+      content: "🍫";
+
+      position: absolute;
+
+      left: 20px;
+      top: 15px;
+
+      font-size: 50px;
+
+      opacity: .9;
+    }
+
+    .christmas-banner::after {
+
+      content: "🍊";
+
+      position: absolute;
+
+      right: 20px;
+      bottom: 10px;
+
+      font-size: 50px;
+
+      opacity: .9;
+    }
+
+    .christmas-banner h2 {
+
+      font-size: 32px;
+
+      margin-bottom: 8px;
+
+      font-weight: 900;
+    }
+
+    .christmas-banner p {
+
+      font-size: 17px;
+
+      max-width: 700px;
+
+      margin: auto;
+    }
+
+    .christmas-highlight {
+
+      display: inline-block;
+
+      margin-top: 18px;
+
+      padding: 10px 20px;
+
+      background: white;
+
+      color: #b40000;
+
+      border-radius: 30px;
+
+      font-weight: 900;
+
+      font-size: 16px;
+    }
+
+
+    /* =====================================
+        CONTAINER
+    ===================================== */
+
+    .container {
+
+      max-width: 850px;
+
+      margin: 25px auto 60px;
+
+      padding: 0 15px;
+    }
+
+
+    /* =====================================
+        CARD
+    ===================================== */
+
+    .card {
+
+      background: white;
+
+      border-radius: 20px;
+
+      padding: 28px;
+
+      box-shadow:
+        0 7px 25px rgba(0,0,0,.09);
+
+      margin-bottom: 20px;
+    }
+
+
+    /* =====================================
+        INTRO
+    ===================================== */
+
+    .intro-card {
+
+      text-align: center;
+    }
+
+    .intro-card h2 {
+
+      color: #b40000;
+
+      font-size: 25px;
+
+      margin-bottom: 10px;
+    }
+
+    .intro-card p {
+
+      color: #555;
+
+      margin-bottom: 15px;
+    }
+
+    .rules {
+
+      display: flex;
+
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+      gap: 10px;
+
+      margin-top: 15px;
+    }
+
+    .rule {
+
+      background: #fff4f4;
+
+      color: #a60000;
+
+      border: 1px solid #ffd1d1;
+
+      border-radius: 20px;
+
+      padding: 8px 14px;
+
+      font-size: 13px;
+
+      font-weight: bold;
+    }
+
+
+    /* =====================================
+        FORMULÁRIO
+    ===================================== */
+
+    .form-title {
+
+      color: #b40000;
+
+      font-size: 22px;
+
+      margin-bottom: 7px;
+
+      font-weight: 900;
+    }
+
+    .form-subtitle {
+
+      color: #666;
+
+      font-size: 14px;
+
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+
+      margin-bottom: 17px;
+    }
+
+    .form-group label {
+
+      display: block;
+
+      font-weight: bold;
+
+      margin-bottom: 7px;
+
+      color: #333;
+    }
+
+    .form-group input {
+
+      width: 100%;
+
+      padding: 14px 15px;
+
+      border: 2px solid #e5e5e5;
+
+      border-radius: 12px;
+
+      font-size: 16px;
+
+      outline: none;
+
+      transition: .2s;
+    }
+
+    .form-group input:focus {
+
+      border-color: #c00000;
+
+      box-shadow:
+        0 0 0 3px rgba(192,0,0,.08);
+    }
+
+    .privacy-text {
+
+      font-size: 12px;
+
+      color: #777;
+
+      margin-top: 8px;
+    }
+
+
+    /* =====================================
+        BOTÕES
+    ===================================== */
+
+    .btn {
+
+      border: none;
+
+      cursor: pointer;
+
+      font-family: inherit;
+
+      padding: 14px 22px;
+
+      border-radius: 28px;
+
+      font-weight: 900;
+
+      font-size: 15px;
+
+      transition: .2s;
+    }
+
+    .btn-primary {
+
+      background:
+        linear-gradient(
+          135deg,
+          #b40000,
+          #e00000
+        );
+
+      color: white;
+
+      box-shadow:
+        0 5px 12px rgba(180,0,0,.25);
+    }
+
+    .btn-primary:hover {
+
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 8px 16px rgba(180,0,0,.3);
+    }
+
+    .btn-whatsapp {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      gap: 8px;
+
+      background: #25D366;
+
+      color: white;
+
+      text-decoration: none;
+
+      padding: 15px 24px;
+
+      border-radius: 30px;
+
+      font-weight: 900;
+
+      transition: .2s;
+    }
+
+    .btn-whatsapp:hover {
+
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 6px 15px rgba(37,211,102,.3);
+    }
+
+
+    /* =====================================
+        ERRO
+    ===================================== */
+
+    .error-message {
+
+      display: none;
+
+      margin-top: 15px;
+
+      padding: 12px;
+
+      border-radius: 10px;
+
+      background: #fff0f0;
+
+      color: #b00000;
+
+      font-weight: bold;
+
+      text-align: center;
+    }
+
+
+    /* =====================================
+        PROGRESSO
+    ===================================== */
+
+    .progress-wrapper {
+
+      margin-bottom: 20px;
+    }
+
+    .progress-info {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      color: #666;
+
+      font-size: 14px;
+
+      font-weight: bold;
+
+      margin-bottom: 7px;
+    }
+
+    .progress-bar {
+
+      height: 10px;
+
+      background: #e9e9e9;
+
+      border-radius: 20px;
+
+      overflow: hidden;
+    }
+
+    .progress-fill {
+
+      height: 100%;
+
+      width: 20%;
+
+      background:
+        linear-gradient(
+          90deg,
+          #b40000,
+          #e60000
+        );
+
+      border-radius: 20px;
+
+      transition: width .3s ease;
+    }
+
+
+    /* =====================================
+        PERGUNTAS
+    ===================================== */
+
+    .question-number {
+
+      color: #b40000;
+
+      font-size: 14px;
+
+      font-weight: 900;
+
+      margin-bottom: 8px;
+
+      text-transform: uppercase;
+    }
+
+    .question {
+
+      font-size: 21px;
+
+      font-weight: 800;
+
+      color: #222;
+
+      margin-bottom: 22px;
+    }
+
+    .options {
+
+      display: grid;
+
+      gap: 12px;
+    }
+
+    .option {
+
+      position: relative;
+    }
+
+    .option input {
+
+      position: absolute;
+
+      opacity: 0;
+
+      pointer-events: none;
+    }
+
+    .option label {
+
+      display: block;
+
+      border: 2px solid #e5e5e5;
+
+      border-radius: 13px;
+
+      padding: 15px 16px;
+
+      cursor: pointer;
+
+      background: white;
+
+      transition: all .2s ease;
+
+      font-size: 15px;
+    }
+
+    .option label:hover {
+
+      border-color: #d00000;
+
+      background: #fff7f7;
+    }
+
+    .option input:checked + label {
+
+      border-color: #c00000;
+
+      background: #fff0f0;
+
+      color: #a00000;
+
+      font-weight: bold;
+
+      box-shadow:
+        0 3px 10px rgba(180,0,0,.1);
+    }
+
+    .option-letter {
+
+      display: inline-flex;
+
+      width: 30px;
+      height: 30px;
+
+      align-items: center;
+      justify-content: center;
+
+      background: #eee;
+
+      border-radius: 50%;
+
+      margin-right: 8px;
+
+      font-weight: bold;
+
+      color: #555;
+    }
+
+    .option input:checked + label .option-letter {
+
+      background: #c00000;
+
+      color: white;
+    }
+
+
+    /* =====================================
+        ÁREA DOS BOTÕES
+    ===================================== */
+
+    .button-area {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 12px;
+
+      margin-top: 25px;
+    }
+
+
+    /* =====================================
+        ENVIO WHATSAPP
+    ===================================== */
+
+    .whatsapp-card {
+
+      display: none;
+
+      text-align: center;
+    }
+
+    .whatsapp-icon {
+
+      width: 80px;
+      height: 80px;
+
+      border-radius: 50%;
+
+      background: #e7f9ee;
+
+      margin: 0 auto 15px;
+
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+
+      font-size: 40px;
+    }
+
+    .whatsapp-card h2 {
+
+      color: #b40000;
+
+      font-size: 27px;
+
+      margin-bottom: 10px;
+    }
+
+    .whatsapp-card p {
+
+      color: #555;
+
+      max-width: 600px;
+
+      margin: 0 auto 20px;
+    }
+
+    .participation-id {
+
+      display: inline-block;
+
+      background: #f7f7f7;
+
+      border: 1px dashed #aaa;
+
+      border-radius: 10px;
+
+      padding: 10px 16px;
+
+      margin-bottom: 20px;
+
+      font-weight: bold;
+
+      color: #555;
+    }
+
+
+    /* =====================================
+        AVISO
+    ===================================== */
+
+    .warning-box {
+
+      max-width: 650px;
+
+      margin: 20px auto 0;
+
+      padding: 13px;
+
+      background: #fff8e6;
+
+      border: 1px solid #f0d58a;
+
+      border-radius: 10px;
+
+      color: #735900;
+
+      font-size: 13px;
+    }
+
+
+    /* =====================================
+        FOOTER
+    ===================================== */
+
+    footer {
+
+      background: #a90000;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 28px 15px;
+    }
+
+    footer h3 {
+
+      font-size: 19px;
+
+      margin-bottom: 6px;
+    }
+
+    footer p {
+
+      font-size: 13px;
+
+      opacity: .9;
+
+      margin-bottom: 5px;
+    }
+
+    footer a {
+
+      color: white;
+
+      font-weight: bold;
+
+      text-decoration: none;
+    }
+
+    .footer-links {
+
+      margin-top: 12px;
+
+      display: flex;
+
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+      gap: 15px;
+    }
+
+
+    /* =====================================
+        MOBILE
+    ===================================== */
+
+    @media (max-width: 650px) {
+
+      .header-container {
+
+        flex-direction: column;
+
+        text-align: center;
+      }
+
+      .logo {
+
+        justify-content: center;
+      }
+
+      .header-button {
+
+        width: 100%;
+
+        max-width: 280px;
+      }
+
+      .christmas-banner {
+
+        padding: 30px 18px;
+      }
+
+      .christmas-banner h2 {
+
+        font-size: 25px;
+      }
+
+      .christmas-banner p {
+
+        font-size: 15px;
+      }
+
+      .card {
+
+        padding: 20px 16px;
+      }
+
+      .question {
+
+        font-size: 18px;
+      }
+
+      .button-area {
+
+        flex-direction: column-reverse;
+      }
+
+      .button-area .btn {
+
+        width: 100%;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- =====================================
+       HEADER
+  ===================================== -->
+
+  <header>
+
+    <div class="header-container">
+
+      <div class="logo">
+
+        <div class="logo-icon">
+          +
+        </div>
+
+        <div class="logo-text">
+
+          <h1>
+            ATACADÃO FARMA CENTRO
+          </h1>
+
+          <p>
+            Drogaria do Péricles
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <a
+        class="header-button"
+        href="https://wa.me/5561992186067"
+        target="_blank"
+        rel="noopener"
+      >
+        💬 Fale conosco
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- =====================================
+       BANNER
+  ===================================== -->
+
+  <section class="hero">
+
+    <div class="christmas-banner">
+
+      <h2>
+        🍫 Quiz de Natal 🍊
+      </h2>
+
+      <p>
+        Responda ao quiz, garanta seu brinde surpresa e desbloqueie seu desconto misterioso!
+      </p>
+
+      <div class="christmas-highlight">
+
+        Acerte pelo menos 3 de 5 perguntas!
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================
+       CONTEÚDO
+  ===================================== -->
+
+  <main class="container">
+
+
+    <!-- ===================================
+         INTRODUÇÃO
+    =================================== -->
+
+    <div class="card intro-card">
+
+      <h2>
+        🎄 Participe do Quiz Especial
+      </h2>
+
+      <p>
+
+        Responda às 5 perguntas sobre farmácia, saúde e cuidados pessoais.
+
+        <br><br>
+
+        Você precisa acertar
+        <strong>pelo menos 3 perguntas</strong>
+        para garantir seus benefícios.
+
+      </p>
+
+
+      <div class="rules">
+
+        <div class="rule">
+          🎄 5 perguntas
+        </div>
+
+        <div class="rule">
+          ⭐ Mínimo 3 acertos
+        </div>
+
+        <div class="rule">
+          🍫 Brinde surpresa
+        </div>
+
+        <div class="rule">
+          🍊 Desconto misterioso
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ===================================
+         CADASTRO
+    =================================== -->
+
+    <div
+      id="registration-card"
+      class="card"
+    >
+
+      <div class="form-title">
+
+        Antes de começar 🎁
+
+      </div>
+
+      <div class="form-subtitle">
+
+        Informe seus dados para registrar sua participação e garantir seus presentes.
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="name">
+          Nome
+        </label>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Digite seu nome"
+          maxlength="100"
+          autocomplete="name"
+        >
+
+      </div>
+
+
+      <div class="form-group">
+
+        <label for="phone">
+          WhatsApp
+        </label>
+
+        <input
+          type="tel"
+          id="phone"
+          placeholder="(61) 99999-9999"
+          maxlength="20"
+          autocomplete="tel"
+        >
+
+        <div class="privacy-text">
+
+          Usaremos este número para validar sua participação e enviar as instruções dos seus benefícios no WhatsApp.
+
+        </div>
+
+      </div>
+
+
+      <div
+        id="registration-error"
+        class="error-message"
+      >
+        ⚠️ Preencha seu nome e WhatsApp para continuar.
+      </div>
+
+
+      <button
+        class="btn btn-primary"
+        style="width:100%; margin-top:10px;"
+        onclick="startQuiz()"
+      >
+
+        🎄 Começar o Quiz
+
+      </button>
+
+    </div>
+
+
+    <!-- ===================================
+         QUIZ
+    =================================== -->
+
+    <div
+      id="quiz-container"
+      style="display:none;"
+    >
+
+      <div class="progress-wrapper">
+
+        <div class="progress-info">
+
+          <span id="progress-text">
+            Pergunta 1 de 5
+          </span>
+
+          <span>
+            🎄 Quiz de Natal
+          </span>
+
+        </div>
+
+
+        <div class="progress-bar">
+
+          <div
+            id="progress-fill"
+            class="progress-fill"
+          ></div>
+
+        </div>
+
+      </div>
+
+
+      <div class="card">
+
+        <div
+          id="question-number"
+          class="question-number"
+        >
+          Pergunta 1
+        </div>
+
+
+        <div
+          id="question"
+          class="question"
+        >
+          Carregando pergunta...
+        </div>
+
+
+        <div
+          id="options"
+          class="options"
+        ></div>
+
+
+        <div
+          id="question-error"
+          class="error-message"
+        >
+          ⚠️ Escolha uma alternativa para continuar.
+        </div>
+
+
+        <div class="button-area">
+
+          <button
+            id="back-button"
+            class="btn"
+            style="
+              background:#eee;
+              color:#444;
+              display:none;
+            "
+            onclick="previousQuestion()"
+          >
+            ← Voltar
+          </button>
+
+
+          <button
+            id="next-button"
+            class="btn btn-primary"
+            onclick="nextQuestion()"
+          >
+            Próxima pergunta →
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ===================================
+         TELA FINAL
+    =================================== -->
+
+    <div
+      id="whatsapp-card"
+      class="card whatsapp-card"
+    >
+
+      <div class="whatsapp-icon">
+        📱
+      </div>
+
+
+      <h2>
+        🎄 Sua participação está pronta!
+      </h2>
+
+
+      <p>
+
+        Para garantir seu brinde surpresa 🍫 e seu desconto misterioso 🍊, clique no botão abaixo e envie a mensagem pelo WhatsApp do Atacadão Farma Centro.
+
+        <br><br>
+
+        <strong>
+          O resultado do quiz não será mostrado nesta tela.
+        </strong>
+
+        <br><br>
+
+        A equipe validará sua participação de acordo com as regras da campanha.
+
+      </p>
+
+
+      <div class="participation-id">
+
+        ID da participação:
+        <span id="participation-id">
+          -
+        </span>
+
+      </div>
+
+
+      <br>
+
+
+      <a
+        id="whatsapp-button"
+        class="btn-whatsapp"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+
+        📲 Enviar participação pelo WhatsApp
+
+      </a>
+
+
+      <div class="warning-box">
+
+        ⚠️ <strong>Importante:</strong>
+
+        envie a mensagem pelo WhatsApp para que seu brinde e seu desconto possam ser validados.
+
+        Não feche esta página antes de enviar a mensagem.
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+  <!-- =====================================
+       FOOTER
+  ===================================== -->
+
+  <footer>
+
+    <h3>
+      ATACADÃO FARMA CENTRO
+    </h3>
+
+    <p>
+      Drogaria do Péricles
+    </p>
+
+    <p>
+      A sua farmácia no Paranoá e entorno
+    </p>
+
+
+    <div class="footer-links">
+
+      <a
+        href="https://wa.me/5561992186067"
+        target="_blank"
+        rel="noopener"
+      >
+        WhatsApp
+      </a>
+
+
+      <a
+        href="https://www.instagram.com/farmacentro061/"
+        target="_blank"
+        rel="noopener"
+      >
+        Instagram
+      </a>
+
+
+      <a
+        href="https://whatsapp.com/channel/0029VbCNcI32f3EG9LzfoK3d"
+        target="_blank"
+        rel="noopener"
+      >
+        Canal WhatsApp
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =====================================
+       JAVASCRIPT
+  ===================================== -->
+
+  <script>
+
+
+    /* =====================================
+       CONFIGURAÇÃO
+    ===================================== */
+
+    const WHATSAPP_NUMBER =
+      "5561992186067";
+
+
+    /* =====================================
+       PERGUNTAS
+    ===================================== */
+
+    const questions = [
+
+      {
+
+        question:
+          "Qual atitude ajuda a reduzir a transmissão de microrganismos e é recomendada especialmente antes de preparar ou consumir alimentos?",
+
+        options: [
+
+          "Lavar as mãos adequadamente com água e sabão",
+
+          "Usar perfume nas mãos",
+
+          "Tomar vitaminas diariamente",
+
+          "Evitar beber água durante o dia"
+
+        ],
+
+        correct: 0
+
+      },
+
+
+      {
+
+        question:
+          "Os antibióticos são medicamentos utilizados principalmente para tratar infecções causadas por qual tipo de agente?",
+
+        options: [
+
+          "Bactérias",
+
+          "Vírus",
+
+          "Alergias",
+
+          "Qualquer tipo de dor"
+
+        ],
+
+        correct: 0
+
+      },
+
+
+      {
+
+        question:
+          "Ao utilizar um medicamento, qual atitude é mais segura quando existe dúvida sobre a forma correta de uso?",
+
+        options: [
+
+          "Consultar a bula e buscar orientação de um profissional de saúde",
+
+          "Aumentar a dose para obter efeito mais rápido",
+
+          "Usar a dose indicada para outra pessoa",
+
+          "Misturar o medicamento com outro por conta própria"
+
+        ],
+
+        correct: 0
+
+      },
+
+
+      {
+
+        question:
+          "Durante a exposição ao sol, qual cuidado ajuda a proteger a pele?",
+
+        options: [
+
+          "Usar proteção solar de acordo com as orientações do produto",
+
+          "Aplicar perfume no lugar do protetor solar",
+
+          "Usar protetor solar apenas uma vez por mês",
+
+          "Evitar qualquer proteção quando o dia estiver nublado"
+
+        ],
+
+        correct: 0
+
+      },
+
+
+      {
+
+        question:
+          "Antes de utilizar um medicamento que você nunca usou, qual atitude é mais adequada?",
+
+        options: [
+
+          "Verificar as orientações de uso e, quando necessário, procurar orientação profissional",
+
+          "Tomar uma dose maior para testar o efeito",
+
+          "Seguir automaticamente a dose de um amigo",
+
+          "Misturar com outro medicamento sem verificar possíveis interações"
+
+        ],
+
+        correct: 0
+
+      }
+
+    ];
+
+
+    /* =====================================
+       VARIÁVEIS
+    ===================================== */
+
+    let currentQuestion = 0;
+
+    let answers =
+      new Array(questions.length).fill(null);
+
+    let participantName = "";
+
+    let participantPhone = "";
+
+    let participationId = "";
+
+
+    /* =====================================
+       ELEMENTOS
+    ===================================== */
+
+    const registrationCard =
+      document.getElementById(
+        "registration-card"
+      );
+
+    const quizContainer =
+      document.getElementById(
+        "quiz-container"
+      );
+
+    const whatsappCard =
+      document.getElementById(
+        "whatsapp-card"
+      );
+
+    const questionElement =
+      document.getElementById(
+        "question"
+      );
+
+    const questionNumberElement =
+      document.getElementById(
+        "question-number"
+      );
+
+    const optionsElement =
+      document.getElementById(
+        "options"
+      );
+
+    const progressText =
+      document.getElementById(
+        "progress-text"
+      );
+
+    const progressFill =
+      document.getElementById(
+        "progress-fill"
+      );
+
+    const nextButton =
+      document.getElementById(
+        "next-button"
+      );
+
+    const backButton =
+      document.getElementById(
+        "back-button"
+      );
+
+    const questionError =
+      document.getElementById(
+        "question-error"
+      );
+
+    const registrationError =
+      document.getElementById(
+        "registration-error"
+      );
+
+    const participationIdElement =
+      document.getElementById(
+        "participation-id"
+      );
+
+    const whatsappButton =
+      document.getElementById(
+        "whatsapp-button"
+      );
+
+
+    /* =====================================
+       GERAR ID DA PARTICIPAÇÃO
+    ===================================== */
+
+    function generateParticipationId() {
+
+      const timestamp =
+        Date.now()
+          .toString(36)
+          .toUpperCase();
+
+      const random =
+        Math.random()
+          .toString(36)
+          .substring(2, 7)
+          .toUpperCase();
+
+      return "AF-" + timestamp + "-" + random;
+
+    }
+
+
+    /* =====================================
+       LIMPAR WHATSAPP
+    ===================================== */
+
+    function normalizePhone(phone) {
+
+      return phone
+        .replace(/\D/g, "");
+
+    }
+
+
+    /* =====================================
+       COMEÇAR QUIZ
+    ===================================== */
+
+    function startQuiz() {
+
+      const name =
+        document
+          .getElementById("name")
+          .value
+          .trim();
+
+      const phone =
+        document
+          .getElementById("phone")
+          .value
+          .trim();
+
+
+      if (
+        name.length < 2 ||
+        normalizePhone(phone).length < 10
+      ) {
+
+        registrationError.style.display =
+          "block";
+
+        return;
+
+      }
+
+
+      registrationError.style.display =
+        "none";
+
+
+      participantName =
+        name;
+
+      participantPhone =
+        normalizePhone(phone);
+
+
+      currentQuestion = 0;
+
+
+      answers =
+        new Array(
+          questions.length
+        ).fill(null);
+
+
+      registrationCard.style.display =
+        "none";
+
+
+      quizContainer.style.display =
+        "block";
+
+
+      loadQuestion();
+
+
+      window.scrollTo({
+        top: 200,
+        behavior: "smooth"
+      });
+
+    }
+
+
+    /* =====================================
+       CARREGAR PERGUNTA
+    ===================================== */
+
+    function loadQuestion() {
+
+      const q =
+        questions[currentQuestion];
+
+
+      questionNumberElement.textContent =
+        "Pergunta " +
+        (currentQuestion + 1);
+
+
+      questionElement.textContent =
+        q.question;
+
+
+      progressText.textContent =
+        "Pergunta " +
+        (currentQuestion + 1) +
+        " de " +
+        questions.length;
+
+
+      const progress =
+        (
+          (currentQuestion + 1) /
+          questions.length
+        ) * 100;
+
+
+      progressFill.style.width =
+        progress + "%";
+
+
+      optionsElement.innerHTML =
+        "";
+
+
+      q.options.forEach(
+        (option, index) => {
+
+          const optionDiv =
+            document.createElement(
+              "div"
+            );
+
+
+          optionDiv.className =
+            "option";
+
+
+          optionDiv.innerHTML = `
+
+            <input
+              type="radio"
+              name="answer"
+              id="option-${index}"
+              value="${index}"
+              ${
+                answers[currentQuestion] === index
+                  ? "checked"
+                  : ""
+              }
+            >
+
+            <label
+              for="option-${index}"
+            >
+
+              <span class="option-letter">
+                ${String.fromCharCode(65 + index)}
+              </span>
+
+              ${option}
+
+            </label>
+
+          `;
+
+
+          optionsElement.appendChild(
+            optionDiv
+          );
+
+        }
+      );
+
+
+      questionError.style.display =
+        "none";
+
+
+      backButton.style.display =
+        currentQuestion > 0
+          ? "block"
+          : "none";
+
+
+      nextButton.textContent =
+        currentQuestion ===
+        questions.length - 1
+
+          ? "Finalizar participação 🎄"
+
+          : "Próxima pergunta →";
+
+    }
+
+
+    /* =====================================
+       PRÓXIMA
+    ===================================== */
+
+    function nextQuestion() {
+
+      const selected =
+        document.querySelector(
+          'input[name="answer"]:checked'
+        );
+
+
+      if (!selected) {
+
+        questionError.style.display =
+          "block";
+
+        return;
+
+      }
+
+
+      answers[currentQuestion] =
+        Number(selected.value);
+
+
+      if (
+        currentQuestion ===
+        questions.length - 1
+      ) {
+
+        finishParticipation();
+
+        return;
+
+      }
+
+
+      currentQuestion++;
+
+
+      loadQuestion();
+
+
+      window.scrollTo({
+        top: 180,
+        behavior: "smooth"
+      });
+
+    }
+
+
+    /* =====================================
+       VOLTAR
+    ===================================== */
+
+    function previousQuestion() {
+
+      if (currentQuestion <= 0) {
+        return;
+      }
+
+
+      const selected =
+        document.querySelector(
+          'input[name="answer"]:checked'
+        );
+
+
+      if (selected) {
+
+        answers[currentQuestion] =
+          Number(selected.value);
+
+      }
+
+
+      currentQuestion--;
+
+
+      loadQuestion();
+
+
+      window.scrollTo({
+        top: 180,
+        behavior: "smooth"
+      });
+
+    }
+
+
+    /* =====================================
+       FINALIZAR COM GABARITO EMBUTIDO NO ID
+    ===================================== */
+
+    function finishParticipation() {
+
+      quizContainer.style.display =
+        "none";
+
+      whatsappCard.style.display =
+        "block";
+
+
+      // Gera o gabarito cifrado (1 para acerto, 0 para erro)
+      let gabarito = "";
+      answers.forEach((ans, idx) => {
+        if (ans !== null && ans === questions[idx].correct) {
+          gabarito += "1";
+        } else {
+          gabarito += "0";
+        }
+      });
+
+
+      // Concatena o ID aleatório com o gabarito no final (ex: AF-M4K9X-11010)
+      participationId = generateParticipationId() + "-" + gabarito;
+
+
+      participationIdElement.textContent =
+        participationId;
+
+
+      const message =
+
+        "🎄 QUIZ DE NATAL - ATACADÃO FARMA CENTRO\n\n" +
+
+        "Olá! Finalizei o Quiz de Natal.\n\n" +
+
+        "Nome: " +
+        participantName +
+        "\n" +
+
+        "WhatsApp: " +
+        participantPhone +
+        "\n\n" +
+
+        "ID da participação: " +
+        participationId +
+        "\n\n" +
+
+        "Gostaria de validar minha participação para resgatar meu brinde surpresa 🍫 e meu desconto misterioso 🍊 conforme as regras da campanha.";
+
+
+      whatsappButton.href =
+        "https://wa.me/" +
+        WHATSAPP_NUMBER +
+        "?text=" +
+        encodeURIComponent(message);
+
+
+      window.scrollTo({
+        top: 200,
+        behavior: "smooth"
+      });
+
+    }
+
+  </script>
+
+</body>
+</html>
